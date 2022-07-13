@@ -23,35 +23,55 @@ WebUI.navigateToUrl(GlobalVariable.base_url)
 
 WebUI.maximizeWindow()
 
-'negative case for invalid regstration data'
-if (true) {
-    for (def index : (1..5)) {
-        WebUI.click(findTestObject('authentication/accountBtn'))
+'Looping negative case for failed regstration data'
+for (def index : (1..5)) {
+    WebUI.click(findTestObject('authentication/accountBtn'))
 
-        WebUI.selectOptionByValue(findTestObject('authentication/registration/favoriteGenreField'), findTestData('registration_ddt').getValue(
-                1, index), false)
+    WebUI.selectOptionByValue(findTestObject('authentication/registration/favoriteGenreField'), findTestData('registration_ddt').getValue(
+            1, index), false)
 
-        WebUI.selectOptionByValue(findTestObject('authentication/registration/favoriteConsoleField'), findTestData('registration_ddt').getValue(
-                2, index), false)
+    WebUI.selectOptionByValue(findTestObject('authentication/registration/favoriteConsoleField'), findTestData('registration_ddt').getValue(
+            2, index), false)
 
-        WebUI.selectOptionByValue(findTestObject('authentication/registration/hobbiesInterestField'), findTestData('registration_ddt').getValue(
-                3, index), false)
+    WebUI.selectOptionByValue(findTestObject('authentication/registration/hobbiesInterestField'), findTestData('registration_ddt').getValue(
+            3, index), false)
 
-        WebUI.check(findTestObject('authentication/registration/genderRadioBtn'))
+    WebUI.check(findTestObject('authentication/registration/genderRadioBtn'))
 
-        WebUI.setText(findTestObject('authentication/registration/emailField'), findTestData('registration_ddt').getValue(
-                5, index))
+    WebUI.setText(findTestObject('authentication/registration/emailField'), findTestData('registration_ddt').getValue(5, 
+            index))
 
-        WebUI.setText(findTestObject('authentication/registration/passwordField'), findTestData('registration_ddt').getValue(
-                6, index))
+    WebUI.setText(findTestObject('authentication/registration/passwordField'), findTestData('registration_ddt').getValue(
+            6, index))
 
-        WebUI.setText(findTestObject('authentication/registration/confirmPasswordField'), findTestData('registration_ddt').getValue(
-                7, index))
+    WebUI.setText(findTestObject('authentication/registration/confirmPasswordField'), findTestData('registration_ddt').getValue(
+            7, index))
 
-        WebUI.click(findTestObject('authentication/registration/registerBtn'))
-
-        WebUI.verifyElementText(findTestObject('authentication/registration/errorMessage'), findTestData('registration_ddt').getValue(
-                8, index), FailureHandling.CONTINUE_ON_FAILURE)
-    }
+    WebUI.click(findTestObject('authentication/registration/registerBtn'))
 }
+
+'Positive case success registration data\n'
+WebUI.click(findTestObject('authentication/accountBtn'))
+
+WebUI.selectOptionByValue(findTestObject('authentication/registration/favoriteGenreField'), findTestData('registration_local_data').getValue(
+        1, 1), false)
+
+WebUI.selectOptionByValue(findTestObject('authentication/registration/favoriteConsoleField'), findTestData('registration_local_data').getValue(
+        2, 1), false)
+
+WebUI.selectOptionByValue(findTestObject('authentication/registration/hobbiesInterestField'), findTestData('registration_local_data').getValue(
+        3, 1), false)
+
+WebUI.check(findTestObject('authentication/registration/genderRadioBtn'))
+
+WebUI.setText(findTestObject('authentication/registration/emailField'), findTestData('registration_local_data').getValue(
+        5, 1))
+
+WebUI.setText(findTestObject('authentication/registration/passwordField'), findTestData('registration_local_data').getValue(
+        6, 1))
+
+WebUI.setText(findTestObject('authentication/registration/confirmPasswordField'), findTestData('registration_local_data').getValue(
+        7, 1))
+
+WebUI.click(findTestObject('authentication/registration/registerBtn'))
 

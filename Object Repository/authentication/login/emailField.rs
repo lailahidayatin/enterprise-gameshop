@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[@id = 'username']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>username</value>
-      <webElementGuid>0553f573-4216-4290-96d8-8e155097f9eb</webElementGuid>
+      <webElementGuid>271090ae-f71a-494b-b4c1-c46a2cf7f357</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

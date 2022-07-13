@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>registration_ddt</name>
+   <name>login_ddt</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>054fed26-3276-4146-a531-d98860c4e262</dataFileGUID>
+   <dataFileGUID>19b69eee-34f1-458f-8c7e-49f42ba67200</dataFileGUID>
    <dataSourceUrl>/Users/dot/Downloads/datatest-gameshop.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Sheet1</sheetName>
+   <sheetName>Sheet2</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

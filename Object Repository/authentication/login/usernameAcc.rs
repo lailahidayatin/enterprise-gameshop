@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>loginBtn</name>
+   <name>usernameAcc</name>
    <tag></tag>
-   <elementGuidId>559bbb31-2455-4025-a66e-d0b4028f09e2</elementGuidId>
+   <elementGuidId>c208daa0-625d-4161-8669-445142eef773</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'login']</value>
+         <value>//span[@class='user-name inline-block']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,9 +15,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>login</value>
-      <webElementGuid>ab020fc9-cf4b-470f-acc7-3203fd026104</webElementGuid>
+      <value>//span[@class='user-name inline-block']</value>
+      <webElementGuid>e2e7684d-97c6-4388-8afa-9352d922ab40</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

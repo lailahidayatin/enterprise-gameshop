@@ -8,47 +8,53 @@
    <dataFileGUID>decd7675-2f38-43b7-bc78-5dabb032f9ed</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>Music Playstation Traveling+%26+Leisure Female cahuvu%40getnada.com Rahasia1234567891011%21 Rahasia1234567891011%21 valid</data>
-   <data>null null null null null null null null</data>
+   <data>Music Playstation Traveling+%26+Leisure Female xatafuvu%40vomoto.com Rahasia1234567891011%21 Rahasia1234567891011%21 Thank+you+for+registering.+Your+account+has+to+be+activated+before+you+can+login.+Please+check+your+email valid</data>
+   <data>null null null null null null null null null</data>
+   <data>null null null null null null null null null</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>favorite_genre</name>
-      <size>2</size>
+      <size>3</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>favorite_console</name>
-      <size>2</size>
+      <size>3</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>hobbies_and_interest</name>
-      <size>2</size>
+      <size>3</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>3</columnIndex>
       <name>gender</name>
-      <size>2</size>
+      <size>3</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>4</columnIndex>
       <name>email_address</name>
-      <size>2</size>
+      <size>3</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>5</columnIndex>
       <name>password</name>
-      <size>2</size>
+      <size>3</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>6</columnIndex>
       <name>confirm_pasword</name>
-      <size>2</size>
+      <size>3</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>7</columnIndex>
+      <name>validation</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>8</columnIndex>
       <name>status</name>
-      <size>2</size>
+      <size>3</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
